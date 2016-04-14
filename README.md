@@ -1,5 +1,5 @@
 # Gigapxel
-Opensource implementation of motorized panoramic photography head based on nodeJS.
+Opensource implementation of motorized panoramic photography head based on nodeJS. Suck it Gigapan Epic Pros!
 
 Hardware can be acquired for <$200:
  - Bescor MP-101
