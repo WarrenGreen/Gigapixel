@@ -5,7 +5,8 @@ const RADIANS_PER_SECOND 	= 0.04,
 	  UP_PIN 				= 1,
 	  RIGHT_PIN 			= 2,
 	  DOWN_PIN 			  	= 3,
-	  DEG_PER_SECOND 		= 10,
+	  HORIZ_DEG_PER_SECOND 	= 10,
+	  VERT_DEG_PER_SECOND 	= 10,
 	  DEFAULT_MOVEMENT_SIZE = 10;
 
 module.exports = {
@@ -108,6 +109,10 @@ function stop() {
 
 }
 
-function getMovementTime(degs) {
-	return 1 / DEG_PER_SECOND * degs;
+function getHorizMovementTime(degs) {
+	return 1 / HORIZ_DEG_PER_SECOND * degs;
+}
+
+function getVertMovementTime(degs) {
+	return 1 / VERT_DEG_PER_SECOND * degs;
 }
